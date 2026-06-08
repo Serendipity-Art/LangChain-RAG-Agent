@@ -19,7 +19,8 @@ pinned: false
 |------|------|
 | 📂 上传语料 | 支持 `.xlsx` / `.xls` / `.csv` 格式 |
 | 🔧 可配置分割 | Chunk Size / Overlap 可调 |
-| 🧠 多种 Embedding | all-MiniLM-L6-v2 / BGE 等 4 种可选 |
+| 🧠 多种 Embedding | 4 种可选，含 BGE 中文优化模型，带详细说明 |
+| 🏭 国内大模型厂商 | 下拉选择 DeepSeek / 智谱 / 通义千问 / Moonshot 等 7 家，自动匹配 Base URL 和模型列表 |
 | 🔍 标准 RAG | 检索 → 拼接 → LLM 回答 |
 | 🤖 Agent 模式 | LangChain `create_agent` 带检索工具的 ReAct Agent |
 | 📊 性能统计 | 每次回答显示检索耗时 / LLM 推理耗时 / 总耗时 |
