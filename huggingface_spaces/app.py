@@ -67,6 +67,8 @@ def build_llm(api_key, base_url, model_name, temperature):
     return ChatOpenAI(model=model_name, openai_api_key=api_key, openai_api_base=base_url, temperature=temperature)
 
 def build_embeddings(model_name):
+    # Dropdown 返回 "模型名 — 描述"，提取纯模型名
+    model_name = model_name.split(" —")[0].strip()
     return HuggingFaceEmbeddings(model_name=model_name)
 
 def get_filepath(file_obj):
