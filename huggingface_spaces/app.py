@@ -411,14 +411,14 @@ footer { display: none !important; }
     margin: 0; color: #fff; font-size: 26px; font-weight: 700;
     letter-spacing: 0.5px;
 }
-.header-sub { margin: 4px 0 0; color: rgba(255,255,255,0.92); font-size: 14px; }
+.header-sub { margin: 4px 0 0; color: #fff; font-size: 14px; font-weight: 500; }
 .header-tags {
     margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap;
 }
 .header-tags span {
-    background: rgba(255,255,255,0.12); color: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.15); color: #fff;
     padding: 4px 14px; border-radius: 20px; font-size: 12px;
-    border: 1px solid rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.15);
 }
 
 /* ── 左右两栏卡片 ── */
