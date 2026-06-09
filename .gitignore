@@ -25,3 +25,6 @@ huggingface_spaces/__pycache__/
 # OS
 Thumbs.db
 .DS_Store
+
+# Reasonix temp
+.reasonix/
