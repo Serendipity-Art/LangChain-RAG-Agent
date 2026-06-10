@@ -412,12 +412,16 @@ if __name__ == "__main__":
     font-family: 'Times New Roman', '微软雅黑', 'Microsoft YaHei', sans-serif !important; }
 footer { display:none !important; }
 
-/* ── 等宽字体（代码、数据） ── */
-code, pre, .code { font-family: 'Times New Roman', 'Consolas', 'Courier New', monospace !important; }
+/* ── 中文正文宋体，数字英文新罗马 ── */
+body, p, span, div, input, textarea, button, select, label, .header-sub, .footer-desc, .roadmap-text, .footer-app-text, .footer-contact, .status-msg, .stat-label, .stat-value, .tip-text {
+    font-family: 'Times New Roman', '宋体', 'SimSun', 'Microsoft YaHei', serif !important; }
 
 /* ── 标题用黑体 ── */
-h1, h2, h3, h4, h5, h6, .header-title, .col-title, .section-header, .footer-card-title, .examples-title {
+h1, h2, h3, h4, h5, h6, .header-title, .col-title, .section-header, .footer-card-title, .examples-title, .footer-app-text b {
     font-family: 'Times New Roman', '黑体', 'SimHei', 'Microsoft YaHei', sans-serif !important; }
+
+/* ── 等宽（代码、数据） ── */
+code, pre, .code { font-family: 'Times New Roman', 'Consolas', 'Courier New', monospace !important; }
 
 /* ── 标题栏 ── */
 .header-banner {
