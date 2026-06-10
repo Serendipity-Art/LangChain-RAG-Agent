@@ -408,8 +408,16 @@ if __name__ == "__main__":
         css="""
 /* ── 全局 ── */
 .gradio-container { max-width:1440px !important; margin:0 auto !important; padding:24px 32px !important;
-    background:linear-gradient(135deg,#eef2ff 0%,#fdf2f8 40%,#ede9fe 75%,#e0f2fe 100%) !important; }
+    background:linear-gradient(135deg,#eef2ff 0%,#fdf2f8 40%,#ede9fe 75%,#e0f2fe 100%) !important;
+    font-family: 'Times New Roman', '微软雅黑', 'Microsoft YaHei', sans-serif !important; }
 footer { display:none !important; }
+
+/* ── 等宽字体（代码、数据） ── */
+code, pre, .code { font-family: 'Times New Roman', 'Consolas', 'Courier New', monospace !important; }
+
+/* ── 标题用黑体 ── */
+h1, h2, h3, h4, h5, h6, .header-title, .col-title, .section-header, .footer-card-title, .examples-title {
+    font-family: 'Times New Roman', '黑体', 'SimHei', 'Microsoft YaHei', sans-serif !important; }
 
 /* ── 标题栏 ── */
 .header-banner {
