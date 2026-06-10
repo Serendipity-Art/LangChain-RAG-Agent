@@ -53,10 +53,13 @@ PROVIDERS = {
 }
 
 EMBEDDING_MODELS = {
-    "all-MiniLM-L6-v2": "通用（384维，80MB，速度最快，中英文均可）",
-    "all-mpnet-base-v2": "通用高精度（768维，420MB，精度最高）",
-    "BAAI/bge-small-zh-v1.5": "🇨🇳 中文优化·轻量版（384维，快速，中文检索优秀）",
-    "BAAI/bge-base-zh-v1.5": "🇨🇳 中文优化·高精度版（768维，中文检索SOTA，推荐中文场景）",
+    "all-MiniLM-L6-v2": "⚡ 通用轻量（384维，80MB，速度最快，适合快速验证）",
+    "all-mpnet-base-v2": "📊 通用高精度（768维，420MB，精度最高的通用模型）",
+    "BAAI/bge-small-zh-v1.5": "🇨🇳 中文轻量（384维，快速省资源，中文任务优秀）",
+    "BAAI/bge-base-zh-v1.5": "🇨🇳 中文推荐（768维，中文检索SOTA，中文场景首选）",
+    "BAAI/bge-large-zh-v1.5": "🇨🇳 中文旗舰（1024维，中文效果最强，资源需求稍高）",
+    "intfloat/multilingual-e5-small": "🌍 多语言小（384维，支持100+语言，兼顾中英文）",
+    "intfloat/multilingual-e5-base": "🌍 多语言推荐（768维，多语言检索SOTA）",
 }
 
 # ── 工具函数 ──
